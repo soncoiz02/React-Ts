@@ -1,10 +1,14 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import Login from "./page/login";
+import StudentList from "./page/student";
 
 function App() {
   return (
     <div className="App">
+      <Login />
+      <StudentList />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
