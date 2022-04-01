@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Product 1",
+      "price": 3000
+    },
+    {
+      "id": 2,
+      "name": "Product 2",
+      "price": 3000
+    },
+    {
+      "name": "new product",
+      "price": 123,
+      "id": 3
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "Tieu de bai viet update",
+      "desc": "Mo ta bai viet",
+      "author": "tuannda3",
+      "category": "Tin tuc",
+      "thumbnail": "",
+      "status": 0
+    }
+  ],
+  "books": [
+    {
+      "name": "Book 1",
+      "price": 200,
+      "cateBookId": 2,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Book 2",
+      "price": 200,
+      "cateBookId": 1
+    },
+    {
+      "name": "Book 3",
+      "price": 200,
+      "cateBookId": 1,
+      "id": 3
+    }
+  ],
+  "cateBooks": [
+    {
+      "id": 1,
+      "name": "Category 1"
+    },
+    {
+      "id": 2,
+      "name": "Category 2"
+    }
+  ]
+}
