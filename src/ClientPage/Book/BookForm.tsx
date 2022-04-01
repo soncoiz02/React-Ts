@@ -25,8 +25,7 @@ const BookForm = () => {
 
   const handleGetBook = async (id: string | number) => {
     const { data } = await getBook(id);
-    if (data)
-      reset({ ...data, cate: `${data.cateBookId}`, price: `${data.price}` });
+    if (data) reset({ ...data, cate: data.cateBookId, price: `${data.price}` });
   };
 
   const handleGetCate = async () => {
