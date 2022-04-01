@@ -8,7 +8,7 @@ import { CATE_TYPE } from "../Category/CateList";
 type BOOK_TYPE = {
   name: string;
   price: string;
-  cate: string;
+  cate: number;
 };
 
 const BookForm = () => {
@@ -41,7 +41,7 @@ const BookForm = () => {
     defaultValues: {
       name: "",
       price: "",
-      cate: "",
+      cate: 0,
     },
   });
 
@@ -116,7 +116,7 @@ const BookForm = () => {
               },
             })}
           >
-            <option value="">Cate</option>
+            <option value={0}>Cate</option>
             {categories &&
               categories.map((cate) => (
                 <option key={cate.id} value={cate.id}>
